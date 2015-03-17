@@ -134,7 +134,7 @@ Enemy.prototype.checkCollisions = function() {
    }
    // TODO: add code to forcibly break out of the foreach loop which calls this
    // return collisionDetected;
-}
+};
 
 // Draw the enemy on the screen, required method for game
 Enemy.prototype.render = function() {
